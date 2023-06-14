@@ -1,0 +1,20 @@
+﻿WDCApp
+
+
+winexe
+C#
+.cs
+C:\Users\Davydovskii Dmitry\Desktop\WDCApp\WDCApp\obj\Debug\
+WDCApp
+none
+false
+DEBUG;TRACE
+C:\Users\Davydovskii Dmitry\Desktop\WDCApp\WDCApp\App.xaml
+12908087171
+2973112643
+291247194888
+281610941749
+MainWindow.xaml;Pages\ClientPage.xaml;Pages\LoginPage.xaml;Pages\MainPage.xaml;Pages\OrdersPage.xaml;Pages\StaffPage.xaml;Styles\ButtonStyle.xaml;Styles\TextBoxStyle.xaml;Windows\EditServiceWindow.xaml;Windows\MoreWindow.xaml;Windows\RegistrationClientWindow.xaml;Windows\ServiceWindow.xaml;
+
+False
+

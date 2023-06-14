@@ -1,0 +1,22 @@
+﻿<Page x:Class="WDCApp.Pages.StaffPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WDCApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="StaffPage">
+    <Grid>
+        <DataGrid x:Name="DataGridStaff" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="100"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="100"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="100"/>
+                <DataGridTextColumn Header="Роль в АИС" Binding="{Binding Role.RoleName}" Width="100"/>
+                <DataGridTextColumn Header="Логин" Binding="{Binding Login}" Width="100"/>
+                <DataGridTextColumn Header="Пароль" Binding="{Binding Password}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>

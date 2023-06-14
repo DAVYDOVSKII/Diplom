@@ -1,0 +1,24 @@
+﻿<Page x:Class="WDCApp.Pages.ClientPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WDCApp.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ClientPage">
+
+    <Grid>
+        <DataGrid x:Name="DataGridClient" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="100"/>
+                <DataGridTextColumn Header="Отчество" Binding="{Binding Patronymic}" Width="100"/>
+                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}" Width="100"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="100"/>
+                <DataGridTextColumn Header="Контактный номер" Binding="{Binding PhoneNumber}" Width="100"/>
+                <DataGridTextColumn Header="Номер паспорта" Binding="{Binding PassportSeries}" Width="100"/>
+                <DataGridTextColumn Header="Серия паспорта" Binding="{Binding PassportNumber}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
